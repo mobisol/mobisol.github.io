@@ -174,8 +174,13 @@ fieldset[disabled] .btn-xl.active {
     background-color: #222;
 }
 
+@font-face {
+    font-family:"MagistralC Bold";
+    src: url("../fonts/magistralc_b.ttf") /* TTF file for CSS3 browsers */
+}
+
 .navbar-default .navbar-brand {
-    font-family: "MagistralC","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "MagistralC Bold", "Helvetica Neue",Helvetica,Arial,cursive;
     color: #9ec73d;
 }
 
